@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Pantalla principal -->
+    <LinearLayout
+        android:id="@+id/layout_principal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="32dp"
+        android:paddingBottom="32dp">
+
+        <ImageView
+            android:id="@+id/imgCocaCola"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/logo"
+            android:scaleType="fitCenter"/>
+
+        <ImageView
+            android:id="@+id/imgPepsi"
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/logo"
+            android:scaleType="fitCenter"/>
+
+        <ImageView
+            android:id="@+id/imgSevenUp"
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/logo"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecciona tu producto"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

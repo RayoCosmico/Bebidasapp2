@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "941884899252",
+    "project_id": "appbebidas-7893e",
+    "storage_bucket": "appbebidas-7893e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941884899252:android:fa54c6fb3936ffc4eebce1",
+        "android_client_info": {
+          "package_name": "com.example.bebidasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941884899252-p37covoh4j5s6ruv361a9lh930bblqhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFfOXj_wO4KhdDecXeBuS8mjw-FnPbW_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941884899252-p37covoh4j5s6ruv361a9lh930bblqhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
