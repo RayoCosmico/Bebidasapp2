@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         @SuppressLint("MissingInflatedId")
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
-            setContentView(R.layout.activity_inicio)
+            setContentView(R.layout.activity_main)
 
             mAuth = FirebaseAuth.getInstance()
 
@@ -45,15 +45,11 @@ class MainActivity : AppCompatActivity() {
                             }
                         }
                 }
-            }
+                }
 
             buttonRegistrarse.setOnClickListener {
                 val intent = Intent(this, Registro::class.java)
                 startActivity(intent)
             }
-        }
-
-
-
-
+            }
     }
